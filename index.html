@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBSE - Stream Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://seeklogo.com/images/C/cbse-logo-46D5A6B556-seeklogo.com.png" alt="CBSE Logo" class="logo">
+            <h1>Central Board of Secondary Education</h1>
+        </header>
+        <main>
+            <h2>Select Your Stream</h2>
+            <form id="streamForm">
+                <label>
+                    <input type="radio" name="stream" value="pcm"> PCM (Physics, Chemistry, Mathematics)
+                </label>
+                <label>
+                    <input type="radio" name="stream" value="pcb"> PCB (Physics, Chemistry, Biology)
+                </label>
+                <button type="button" id="nextButton">Next</button>
+            </form>
+
+            <div id="secondQuestion" class="hidden">
+                <h2 id="secondQuestionText"></h2>
+                <button type="button" id="yesButton" class="hidden">Yes</button>
+                <button type="button" id="noButton" class="hidden">No</button>
+            </div>
+        </main>
+        <footer>
+            <p>Created by Ayush for educational purpose.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
