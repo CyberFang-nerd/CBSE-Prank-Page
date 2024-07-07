@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -35,7 +34,6 @@ header img.logo {
     width: 50px;
     height: auto;
     margin-left :20px;
-
 }
 
 h1 {
@@ -82,7 +80,7 @@ footer {
 }
 
 #yesButton, #noButton {
-    margin: 10px;
+    margin: 10px 60px; /* Increased horizontal margin to add more space between buttons */
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
